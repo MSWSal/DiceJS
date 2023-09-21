@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <link type="text/css" rel="stylesheet" href="dicestyle.css">
+        <title>Dice Game</title>
+    </head>
+    <body>
+        <h2 id="h2">Dice Game</h2>
+        <div id="div1">
+            <div class="playerarea">PLAYER1</div>
+            <div class="playerarea">PLAYER2</div>
+        </div>
+        <div id="div2">
+            <div class="scorearea">Score:<span id="p1score">---</span></div>
+            <div class="scorearea">Score:<span id="p2score" >---</span></div>
+        </div>
+        <div id="divbtn">
+            <button type="button" id="bttn">Roll Dice</button>
+            <button onclick="window.location.reload();" id="btn2">Restart</button>
+        </div>
+        <div id="divimg">
+            <img src="dice_1.png" width="100px" height="100px" id="dice1">
+            <img src="dice_2.png" width="100px" height="100px" id="dice2">
+
+        </div>
+
+        <script src="dicejs.js"></script>
+    </body>
+</html>
